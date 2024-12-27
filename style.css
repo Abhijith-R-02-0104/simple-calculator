@@ -1,0 +1,36 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background: grey;
+    margin-left: 400px;
+}
+#casio{
+    text-align: center;
+    margin: 0;
+}
+#screen{
+    width: 80%;
+    margin-left: 37px;
+    margin-top: 30px;
+    height: 93px;
+    pointer-events: none;
+    margin-top: 0;
+    font-size: 30px;
+}
+.butn{
+    width: 79px;
+    height: 30px;
+    background-color:  black;
+    color: white;
+}
+#row1{
+    margin-top: 20px;
+}
+.row{
+    margin-left: 37px;
+    margin-top: 50px;
+}
+#clr{
+    margin-top: 35px;
+    margin-left: 285px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <h1 id="casio">CASIO</h1>
+                <input type="text" id="screen" name="" id="">
+            </div>
+            <div class="buttons">
+                <button id="clr" onclick="clearDisplay()" class="butn">CLR</button>
+                <div id="row1" class="row">
+                    <button onclick="clickk(7)" class="butn">7</button>
+                    <button onclick="clickk(8)" class="butn">8</button>
+                    <button onclick="clickk(9)" class="butn">9</button>
+                    <button onclick="clickk('+')" class="butn">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="clickk(4)" class="butn">4</button>
+                    <button onclick="clickk(5)" class="butn">5</button>
+                    <button onclick="clickk(6)" class="butn">6</button>
+                    <button onclick="clickk('-')" class="butn">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="clickk(1)" class="butn">1</button>
+                    <button onclick="clickk(2)" class="butn">2</button>
+                    <button onclick="clickk(3)" class="butn">3</button>
+                    <button onclick="clickk('*')" class="butn">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="clickk('.')" class="butn">.</button>
+                    <button onclick="clickk(0)" class="butn">0</button>
+                    <button onclick="clickk('/')" class="butn">/</button>
+                    <button onclick="equalClick()" class="butn">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
